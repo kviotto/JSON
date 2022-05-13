@@ -10,14 +10,14 @@
         "nome" : "Relatátório de Pilar 3",
         "urlBase" : "http://www.intesasanpaolobrasil.com.br/",
         "urlVisualizacao" : "http://www.intesasanpaolobrasil.com.br/informacoes-societarias-e-regulatorias/",
-        "situacao" : "Produção",
+        "situacao" : "Homologação",
         "recursos" :  [
 		{
             "nome" : "OVA - Visão geral do gerenciamento de riscos da instituição",
             "caminhoRecurso" : "/ova/{ano}",
             "parametros" : {
                 "nome" : "ano",
-                "valores" : [ "2021_ova.json" ]
+                "valores" : [ "https://www.intesasanpaolobrasil.com.br/ova/2021/2021_ova.json" ]
             },
 			"periodicidade" : "anual"
 			}
@@ -30,17 +30,15 @@
         "nome" : "Canais de atendimento",
         "urlBase" : "http://www.intesasanpaolobrasil.com.br/",
         "urlVisualizacao" : "http://www.intesasanpaolobrasil.com.br/informacoes-societarias-e-regulatorias/",
-        "situacao" : "Produção",
+        "situacao" : "Homologação",
         "recursos" :  [
 		{
             "nome" : "Canais de Atendimento",
-            "caminhoRecurso" : "/ova/{ano}",
+            "caminhoRecurso" : "/branches",
             "parametros" : {
-                "nome" : "ano",
-                "valores" : [ "opendata_canais_prd.json" ]
-            },
-			"periodicidade" : "anual"
-			}
+                "valores" : [ "https://www.intesasanpaolobrasil.com.br/ova/2021/opendata_canais_prd.json" ]
+            }
+		}
 		     ],
         "contatoArea" : "Gestão de Riscos",
         "contatoEmail" : "br.regulatorio@intesasanpaolo.com"
