@@ -1,0 +1,97 @@
+{
+   "data":[
+      {
+         "company":{
+            "name":"Intesa Sanpaolo Brasil S.A. - Banco Multiplo",
+            "cnpjNumber":"55230916000120",
+            "urlComplementaryList":"https://www.intesasanpaolobrasil.com.br",
+            "compeCode":"374",
+            "brand":"Intesa Sanpaolo"
+         },
+         "branchIdentification":{
+            "type":"AGENCIA",
+            "cnpjNumber":"55230916000120",
+            "code":"139",
+            "checkDigit":"0",
+            "name":"Matriz",
+            "openingDate":"2015-05-31"
+         },
+         "postalAddresses":{
+            "address":"Avenida Juscelino Kubitschek",
+            "number":"1327",
+            "additionalInfo":"21º andar Edíficio International Plaza II",
+            "districtName":"Vila Nova Conceição",
+            "townName":"São Paulo",
+            "ibgeCode":"3550308",
+            "countrySubDivision":"SP",
+            "postCode":"04543011",
+            "country":"Brasil",
+            "countryCode":"BRA",
+            "geographicCoordinates":{
+               "latitude":"-23.590830",
+               "longitude":"-46.682202"
+            }
+         },
+         "availability":{
+            "standards":[
+                  {
+                    "weekday": "SEGUNDA_FEIRA",
+                    "openingTime": "09:00:00Z",
+                    "closingTime": "18:00:00Z"
+                  },
+                  {
+                    "weekday": "TERCA_FEIRA",
+                    "openingTime": "09:00:00Z",
+                    "closingTime": "18:00:00Z"
+                  },
+                  {
+                    "weekday": "QUARTA_FEIRA",
+                    "openingTime": "09:00:00Z",
+                    "closingTime": "18:00:00Z"
+                  },
+                  {
+                    "weekday": "QUINTA_FEIRA",
+                    "openingTime": "09:00:00Z",
+                    "closingTime": "18:00:00Z"
+                  },
+                  {
+                    "weekday": "SEXTA_FEIRA",
+                    "openingTime": "09:00:00Z",
+                    "closingTime": "18:00:00Z"
+                  }
+            ],
+            "exception":"Exceto feriados municipais, estaduais e nacionais",
+            "isPublicAccessAllowed":false
+         },
+         "phones":[
+            {
+               "type":"FIXO",
+               "countryCallingCode":"55",
+               "areaCode":"11",
+               "number":"34653700"
+            }
+         ],
+         "services":[
+            {
+               "name":"OPERACOES_CREDITO_BEM_COMO_OUTROS_SERVICOS_PRESTADOS_ACOMPANHAMENTO_OPERACAO",
+               "code":"ABRE_CONTA_DEPOSITO_OU_PRE_PAGA",
+               "additionalInfo":"APLICA_RESGATA_INVESTIMENTOS"
+            }
+         ],
+         "lastModified":"2022-12-29T17:30:00Z"
+      }
+   ],
+   "links":{
+      "self":"https://kviotto.github.io/JSON/opendata_canais_hlg.json",
+      "first":"https://kviotto.github.io/JSON/opendata_canais_hlg.json",
+      "prev":"null",
+      "next":"null",
+      "last":"null"
+   },
+   "meta":{
+      "lastModified":"2023-03-28T17:30:00Z",
+      "requestDateTime":"2023-03-28T17:30:00Z",
+      "totalRecords":1,
+      "totalPages":1
+   }
+}
