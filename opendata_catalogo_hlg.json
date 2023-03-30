@@ -36,7 +36,7 @@
             "nome" : "Canais de Atendimento",
             "caminhoRecurso" : "/branches",
             "parametros" : {
-                "urlValores" : [ "https://kviotto.github.io/JSON/opendata_canais_prd.json" ]
+                "urlValores" : [ "https://kviotto.github.io/JSON/opendata_canais_hlg.json" ]
             }
 		}
 		     ],
